@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/style.css" rel="stylesheet" type="text/css">
+    <title>Proyecto AVI</title>
+</head>
+
+<body>
+    <header>
+        <!--LOGO-->
+        <div>
+            <img class="logo" src="../imagenes/1FOTO PERFIL GRANDE.png">
+        </div>
+        <!--LOGO-->
+        <!--BARRA NAVEGACION-->
+        <nav class="menunav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./sobrenosotros.html">Sobre nosotros</a></li>
+                <li><a href="./encuentrenos.html">Encuentrenos</a></li>
+                <li><a href="./contactenos.html">Contactenos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--BARRA NAVEGACION-->
+    <section id="formulario">
+        <h2>Envianos tu pregunta!</h2>
+        <form>
+            <label for="nombre">Indicanos tu nombre</label>
+            <input type="text" name="name" placeholder="Nombre">
+            <label for="Apellido">Indicanos tu apellido</label>
+            <input type="text" name="Apellido" placeholder="Apellido">
+            <label for="email">Indicanos tu correo</label>
+            <input type="email" name="email" required placeholder="ejemplo123@123.com">
+            <label for="noticias">Quieres saber acerca de nuestros ultimos productos</label>
+            <select name="noticias" id="">
+                    <option value="Si">Si</option>
+                    <option value="No">No</option>
+                </select>
+            <label for="comentario">Deja tu consulta</label>
+            <textarea name="comentario" id="" cols="30" rows="5"></textarea>
+            <input type="submit" value="enviar datos"> <input type="submit" value="borrar datos">
+        </form>
+    </section>
+    <footer class="footer">
+        <p>Proyecto AVI, Bernardo Cameron. CODERHOUSE</p>
+    </footer>
+</body>
+
+</html>
